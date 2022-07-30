@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_infos",
+  "info": {
+    "singularName": "app-info",
+    "pluralName": "app-infos",
+    "displayName": "App info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "appversion": {
+      "type": "string",
+      "unique": false
+    },
+    "whatsapp_group_link": {
+      "type": "string"
+    },
+    "councilor_phone_number": {
+      "type": "string"
+    }
+  }
+}
